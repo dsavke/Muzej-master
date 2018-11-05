@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muzej Republike Srpske </title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="stranice/ism/css/my-slider.css"/>
+    <script src="ism/js/ism-2.2.min.js"></script>
+
+</head>
+<body>
+<div class="hold">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-2">
+            </div>
+
+            <div class="col-8 slika zindex">
+                <img src="img/logomuzej.png">
+
+            </div>
+
+            <div class="col-2">
+            </div>
+            <div class="col-12 radius">
+                <div class="ikone" >
+                    <img onclick="javascript:qrCode()" src="img/qrcode.png">
+                    <script>
+                    function qrCode() {
+                        Android.qrCodeStart();
+                    }
+                    </script>
+                </div>
+
+
+                <div onclick="javascript:map()" class="ikone2" >
+                    <img src="img/mapa2.png">
+                    <script>
+                    function map() {
+                        Android.mapStart();
+                    }
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row2height">
+
+        </div>
+        <div class="row">
+            <div class="ism-slider col-12" data-transition_type="fade" id="QR8">
+                <ol>
+                    <li>
+                        <img src="img/p22.jpg">
+                    </li>
+                    <li>
+                        <img src="img/p11.jpg">
+                    </li>
+                    <li>
+                        <img src="img/p33.jpg">
+                    </li>
+                    <li>
+                        <img src="img/p44.jpg">
+                    </li>
+                    <li>
+                        <img src="img/p55.jpg">
+                    </li>
+                    <li>
+                        <img src="img/p66.jpg">
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="drugi" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#809ecc</item>
+        <item name="colorPrimaryDark">#809ecc</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="cetri" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#09323c</item>
+        <item name="colorPrimaryDark">#09323c</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

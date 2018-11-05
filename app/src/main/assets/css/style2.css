@@ -1,0 +1,47 @@
+body{
+	margin: 0px;
+	padding: 4px;
+	background-color: #09323c;
+	color: white;
+	
+}
+.hold{
+	padding: 7px;
+
+
+}
+h1 {
+	font-family: "tahoma"  ;
+	color: white;
+	font-size: 2em;
+	margin-top: 5px;
+	text-align: center;
+
+}
+
+.tekst{
+	height: 255px;
+	width: 97%;
+	overflow: auto;
+	text-align: justify;
+	background-color: rgba(201, 201, 201, 0.4);	
+	border-radius: 5px;
+	padding: 6px;
+
+}
+
+.slide{
+	position: relative;
+	bottom: -7vh;
+}
+
+audio {
+position: relative;
+bottom: -9vh;
+}
+
+ .opis {
+ 	position: relative;
+ 	bottom: -8vh;
+ 	text-align: center;
+}

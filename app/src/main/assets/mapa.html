@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muzej Republike Srpske </title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Mapa muzeja</title>
+</head>
+<body style="background-color: #809ECC;">
+
+
+<div class="hold">
+    <div class="container">
+        <div class="row">
+            <div class="mapa">
+
+               
+
+                <!--Ovdje je svg znaci stavio sam ga u div kao svg tag ovo radi i izgleda da moze ovako
+					ti probaj dodati klase ili u css ili u svg pa unutar css a ja cu ti dole napisati u javascript
+					funkciji "change kako se dodaje klasa nekom elementu a imas i primjer kako pristupiti pa ti pokusaj nesto napraviti od toga"---->
+
+
+
+                <svg id="locked" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1214.359" height="820" viewBox="0 394.43 2229 1505.14">
+                    <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                        <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                                <rdf:Description rdf:about=""/>
+                            </rdf:RDF>
+                        </x:xmpmeta>
+
+                        <?xpacket end="w"?></metadata>
+                    <defs>
+                        <style>
+                          .cls-1 {
+                            fill: #82ca9c;
+                          }
+
+                          .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+                            stroke: #000;
+                            fill-rule: evenodd;
+                          }
+
+                          .cls-1, .cls-8 {
+                            stroke-width: 8px;
+                          }
+
+                          .cls-2, .cls-8 {
+                            fill: none;
+                          }
+
+                          .cls-2 {
+                            stroke-width: 7px;
+                          }
+
+                          .cls-3 {
+                            fill: #f4c79a;
+                          }
+
+                          .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+                            stroke-width: 3px;
+                          }
+
+                          .cls-4 {
+                            fill: #cead89;
+                          }
+
+                          .cls-5 {
+                            fill: #f2d1b1;
+                          }
+
+                          .cls-6 {
+                            fill: #e4b27a;
+                          }
+
+                          .cls-7 {
+                            fill: #f7bf82;
+                          }
+                        </style>
+                        <image id="image" width="57" height="71" xlink:href="data:img/png;base64,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"/>
+                        <image id="image-2" width="52" height="71" xlink:href="data:img/png;base64,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"/>
+                        <image id="image-3" width="52" height="71" xlink:href="data:img/png;base64,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"/>
+                        <image id="image-4" width="57" height="71" xlink:href="data:img/png;base64,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"/>
+                    </defs>
+                    <path id="Polygon_1" data-name="Polygon 1" class="cls-1" d="M309.342,968.166l32.808,32.164,61.4,60.18,1.315,131.91-92.344,94.21-131.91,1.31L86.4,1195.6l-1.316-131.91,92.344-94.208Z"/>
+                    <path class="cls-2" d="M1499,617V735L1256,983l-220,6"/>
+                    <path class="cls-3" d="M808,1341l174-179,57-177,217-7,237-244V617L1372,491l-211-2L904,741l-1,116L798,974l-418-4-17,19,59,59,4,150L304,1321v23Z"/>
+                    <path class="cls-4" d="M1948,790l-304,513L980,1164l58-178,217-7,240-245V615l282,2Z"/>
+                    <path class="cls-5" d="M980,1162L807,1339l544,532,170-179,139-6v-8l102-3-120-373Z"/>
+                    <path class="cls-6" d="M2595,893"/>
+                    <path class="cls-7" d="M1948,788l60,4,128,117,1,488-280,280-7-4-89,1-120-371Z"/>
+                    <path class="cls-8" d="M377.086,962.831l418.98,4.073L897,855l1-116,259-254,216,1,121,123,283,2,172,171,62,5,125,122,1,495-286,286-2-12-185,2,1,13-141,5-174,183L804.372,1347,299,1351l-1-33,124-123-4-144-63-63Z"/>
+                    <!-- <use id="otkljucan1" x="1793" y="1696" xlink:href="#image"/> -->
+                    <use id="QR1" x="1793" y="1696" xlink:href="#image-2"/>
+                    <!-- <use id="otkljucan_2" data-name="otkljucan 2" x="1615" y="1579" xlink:href="#image"/> -->
+                    <use id="QR2" x="1615" y="1579" xlink:href="#image-2"/>
+                    <!-- <use id="otkljucan_3" data-name="otkljucan 3" x="1493" y="1579" xlink:href="#image"/> -->
+                    <use id="QR3" x="1493" y="1579" xlink:href="#image-2"/>
+                    <!-- <use id="otkljucan_4" data-name="otkljucan 4" x="1192" y="1615" xlink:href="#image"/> -->
+                    <use id="QR4" x="1192" y="1615" xlink:href="#image-2"/>
+                    <!-- <use id="otkljucan_5" data-name="otkljucan 5" x="954" y="1388" xlink:href="#image"/> -->
+                    <use id="QR5" x="954" y="1388" xlink:href="#image-2"/>
+                    <!-- <use id="otkljucan_6" data-name="otkljucan 6" x="709" y="1252" xlink:href="#image"/> -->
+                    <use id="QR6" x="709" y="1252" xlink:href="#image-2"/>
+                    <!-- <use id="otkljucan_7" data-name="otkljucan 7" x="709" y="989" xlink:href="#image"/> -->
+                    <use id="QR7" x="709" y="989" xlink:href="#image-2"/>
+                    <!-- <use id="otkljucan_8" data-name="otkljucan 8" x="980" y="916" xlink:href="#image"/> -->
+                    <use id="QR8" x="980" y="916" xlink:href="#image-2"/>
+                    <!-- <use id="otkljucan_9" data-name="otkljucan 9" x="457" y="987" xlink:href="#image"/> -->
+                    <use id="QR12" x="1175" y="989" xlink:href="#image-2"/>
+                    <!-- <use id="otkljucan_10" data-name="otkljucan 10" x="219" y="1091" xlink:href="#image"/> -->
+                    <use id="QR11" x="1441" y="803" xlink:href="#image-3"/>
+                    <!-- <use id="otkljucan_11" data-name="otkljucan 11" x="1442" y="803" xlink:href="#image-4"/> -->
+                    <use id="QR9" x="457" y="989" xlink:href="#image-3"/>
+                    <!-- <use id="otkljucan_12" data-name="otkljucan 12" x="1175" y="989" xlink:href="#image-4"/> -->
+                    <use id="QR10" x="219" y="1091" xlink:href="#image-3"/>
+                    <!-- <use id="otkljucan_13" data-name="otkljucan 13" x="1896" y="1481" xlink:href="#image-4"/> -->
+                    <image id="QR13" x="1896" y="1481" width="52" height="71" xlink:href="data:img/png;base64,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"/>
+                </svg>
+
+
+
+                <script>
+
+                </script>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+
+        function change() 
+		//ovo je za pristup elementu qr1 znaci onom checkpointu, ovo dole ispod je dodavanje neke css klase preko js nekom html elementu mozda moze za svg
+		//document.getElementById('locked').getElementById('QR1').addEventListener('klasa_naziv');
+            console.log(document.getElementById('locked').getElementById('QR1').setAttribute('xlink:href', '#image'));
+        }
+        function change2() {
+            console.log(document.getElementById('locked').getElementById('QR2').setAttribute('xlink:href', '#image'));
+        }
+        function change3() {
+            console.log(document.getElementById('locked').getElementById('QR3').setAttribute('xlink:href', '#image'));
+        }
+        function change4() {
+            console.log(document.getElementById('locked').getElementById('QR4').setAttribute('xlink:href', '#image'));
+        }
+        function change5() {
+            console.log(document.getElementById('locked').getElementById('QR5').setAttribute('xlink:href', '#image'));
+        }
+        function change6() {
+            console.log(document.getElementById('locked').getElementById('QR6').setAttribute('xlink:href', '#image'));
+        }
+        function change7() {
+            console.log(document.getElementById('locked').getElementById('QR7').setAttribute('xlink:href', '#image'));
+        }
+        function change8() {
+            console.log(document.getElementById('locked').getElementById('QR8').setAttribute('xlink:href', '#image'));
+        }
+        function change9() {
+            console.log(document.getElementById('locked').getElementById('QR9').setAttribute('xlink:href', '#image'));
+        }
+        function change10() {
+            console.log(document.getElementById('locked').getElementById('QR10').setAttribute('xlink:href', '#image'));
+        }
+        function change11() {
+            console.log(document.getElementById('locked').getElementById('QR11').setAttribute('xlink:href', '#image'));
+        }
+        function change12() {
+            console.log(document.getElementById('locked').getElementById('QR12').setAttribute('xlink:href', '#image'));
+
+        }
+        function change13() {
+            console.log(document.getElementById('locked').getElementById('QR13').setAttribute('xlink:href', '#image'));
+        }
+
+
+</script>
+</body>
+</html>
